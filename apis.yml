@@ -1,8 +1,28 @@
 aid: datasift-mediasift-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/datasift-mediasift-inc.png
 name: DataSift (MediaSift Inc.)
-description: 'DataSift (MediaSift Inc.) is a company surfaced as a portfolio company of insight-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: >-
+  DataSift (MediaSift Inc.) was a pioneering social data platform that provided
+  real-time and historical access to social media firehoses (Twitter, Facebook
+  Topic Data, and more) through its CSDL filtering language and its Push,
+  Historics, and Managed Sources REST APIs. Founded in 2007 and backed by
+  Insight Partners and others, the company was acquired by Meltwater in 2019;
+  the datasift.com domain now redirects to meltwater.com and the standalone
+  DataSift developer platform and APIs have been discontinued. Official
+  first-party client SDKs for Python, Ruby, PHP, Java, and Node.js remain
+  published on public package registries under the datasift GitHub organization
+  as historical artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/datasift-mediasift-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +30,21 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: meltwater
+x-acquired-year: 2019
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Social Media
+- Social Data
+- Data
+- Analytics
+- Streaming
+- Discontinued
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,14 @@ maintainers:
 common:
 - type: Website
   url: http://datasift.com/
+- type: GitHubOrganization
+  url: https://github.com/datasift
+- type: Packages
+  url: packages/datasift-mediasift-inc-packages.yml
+- type: SDKs
+  url: packages/datasift-mediasift-inc-packages.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

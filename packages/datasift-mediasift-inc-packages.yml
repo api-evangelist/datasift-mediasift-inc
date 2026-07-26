@@ -1,0 +1,61 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/datasift
+note: >-
+  DataSift's standalone developer platform was discontinued after Meltwater
+  acquired the company in 2019 (datasift.com now redirects to meltwater.com).
+  These first-party official client libraries remain published on public
+  package registries under the datasift GitHub organization and are captured
+  here as historical, first-party artifacts. They target the retired DataSift
+  REST/Push/Historics APIs and are effectively unmaintained.
+packages:
+  - language: python
+    registry: pypi
+    name: datasift
+    version: 2.12.1
+    url: https://pypi.org/project/datasift/
+    install: pip install datasift
+    repository: https://github.com/datasift/datasift-python
+    summary: The official DataSift API library for Python.
+    official: true
+    status: discontinued
+  - language: ruby
+    registry: rubygems
+    name: datasift
+    version: 3.10.0
+    url: https://rubygems.org/gems/datasift
+    install: gem install datasift
+    repository: https://github.com/datasift/datasift-ruby
+    summary: The official Ruby library for accessing the DataSift API.
+    official: true
+    status: discontinued
+  - language: php
+    registry: packagist
+    name: datasift/datasift-php
+    version: 2.7.1
+    url: https://packagist.org/packages/datasift/datasift-php
+    install: composer require datasift/datasift-php
+    repository: https://github.com/datasift/datasift-php
+    summary: The official DataSift API library for PHP.
+    official: true
+    status: discontinued
+  - language: java
+    registry: maven
+    name: com.datasift.client:datasift-java
+    version: 3.6.4
+    url: https://search.maven.org/artifact/com.datasift.client/datasift-java
+    install: 'implementation "com.datasift.client:datasift-java:3.6.4"'
+    repository: https://github.com/datasift/datasift-java
+    summary: The official DataSift API client for Java.
+    official: true
+    status: discontinued
+  - language: javascript
+    registry: npm
+    name: datasift-node
+    version: 1.5.0
+    url: https://www.npmjs.com/package/datasift-node
+    install: npm install datasift-node
+    repository: https://github.com/datasift/datasift-node
+    summary: DataSift REST API Client for Node.js.
+    official: true
+    status: discontinued
