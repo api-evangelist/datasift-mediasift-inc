@@ -52,7 +52,7 @@ modified: '2026-07-18'
 tags:
 - Company
 - Consumer
-- Social-Media
+- Social Media
 - Social Data
 - Data
 - Analytics
@@ -67,6 +67,7 @@ tags_raw:
 - Analytics
 - Streaming
 - Discontinued
+- Social-Media
 apis: []
 maintainers:
 - FN: Kin Lane
