@@ -96,3 +96,76 @@
     detected: '2026-10-18'
   status: not-a-workflow
   arazzo: null
+- slug: datasift-mediasift-inc-chef-software-chef-supermarket
+  label: Chef Software (chef-supermarket)
+  partner: chef-software
+  partner_name: Chef Software (chef-supermarket)
+  category: configuration-management content listing (Chef cookbook)
+  type: marketplace
+  marketplace: chef-supermarket
+  channel: partner-built
+  evidence: https://supermarket.chef.io/cookbooks/alternate_search
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: datasift-mediasift-inc-packagist
+  label: Packagist
+  partner: packagist
+  partner_name: Packagist
+  category: official SDK (PHP)
+  type: register
+  channel: package-registry
+  evidence: https://packagist.org/packages/datasift/behat-extension
+  source: edge
+  relationship: distribution-channel
+  contract_reference:
+    register: Packagist (public registry JSON)
+    spec_file: null
+    language: PHP
+    packages:
+    - name: datasift/behat-extension
+      version: v5.1.1
+      released: '2018-02-21'
+      released_field: time
+      lapsed: true
+      page: https://packagist.org/packages/datasift/behat-extension
+      repo_leg: github-org:datasift
+      publisher_leg: email:datasift.com
+      matched_by: domain
+    - name: datasift/datasift-php
+      version: 2.7.1
+      released: '2016-08-22'
+      released_field: time
+      lapsed: true
+      page: https://packagist.org/packages/datasift/datasift-php
+      repo_leg: github-org:datasift
+      publisher_leg: org:datasift
+      matched_by: github-org
+      abandoned: true
+    - name: datasift/testrest-extension
+      version: v5.1.1
+      released: '2018-02-21'
+      released_field: time
+      lapsed: true
+      page: https://packagist.org/packages/datasift/testrest-extension
+      repo_leg: github-org:datasift
+      publisher_leg: email:datasift.com
+      matched_by: domain
+    - name: datasift/webdriver
+      version: 1.5.6
+      released: '2016-07-08'
+      released_field: time
+      lapsed: true
+      page: https://packagist.org/packages/datasift/webdriver
+      repo_leg: github-org:datasift
+      publisher_leg: email:datasift.com
+      matched_by: domain
+      abandoned: true
+    current: false
+    signal_note: 'an official package on the registry: distribution, not an integration; lapsed = no release in
+      24 months'
+    detected_by: sweep-php-dart-elixir-package-registries.py
+    detected: '2026-10-22'
+  status: not-a-workflow
+  arazzo: null
